@@ -31,7 +31,7 @@ class CustomView(text : String , context : Context): View(context){
         val paint = Paint()
         paint.color = Color.BLACK
         paint.textSize = 100f
-        canvas?.drawText(text,100f,300f,paint) //drawText메서드
+        canvas?.drawText(text,100f,300f,paint) //drawText메서드,텍스트를 출력하기 위해 Canvas의 drawText()메서드 사용
 
     }
 
